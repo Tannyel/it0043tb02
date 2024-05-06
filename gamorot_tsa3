@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form label="powkeeDex">
+            <label for="Dex">National Dex:</label>
+            <input type="number" name="National Dex" id="dex" min="1"><br><br>
+
+            <input type="radio" name="Gen" id="gen1">
+            <label for="gen1">Generation 1</label>
+            <input type="radio" name="Gen" id="gen2">
+            <label for="gen2">Generation 2</label>
+            <input type="radio" name="Gen" id="gen3">
+            <label for="gen2">Generation 3</label>
+            <input type="radio" name="Gen" id="gen4">
+            <label for="gen2">Generation 4</label>
+            <input type="radio" name="Gen" id="gen5">
+            <label for="gen2">Generation 5</label>
+            <input type="radio" name="Gen" id="gen6">
+            <label for="gen2">Generation 6</label>
+            <input type="radio" name="Gen" id="gen7">
+            <label for="gen2">Generation 7</label>
+            <input type="radio" name="Gen" id="gen8">
+            <label for="gen2">Generation 8</label>
+            <input type="radio" name="Gen" id="gen9">
+            <label for="gen2">Generation 9</label><br><br>
+
+            <label for="pName">Pokemon Name:</label>
+            <input type="text" name="Pokemon Name" id="pName"><br><br>
+
+            <label for="InsertImage">Image:</label>
+            <input type="file" name="Image" id="image"><br><br>
+
+            <label for="type1">Type 1:</label>
+            <select name="types" id="types">
+                 <option value="Normal">Normal</option>
+                 <option value="Fire">Fire</option>
+                 <option value="Water">Water</option>
+                 <option value="Electric">Electric</option>
+                 <option value="Grass">Grass</option>
+                 <option value="Ice">Ice</option>
+                 <option value="Fighting">Fighting</option>
+                 <option value="Poison">Poison</option>
+                 <option value="Ground">Ground</option>
+                 <option value="Flying">Flying</option>
+                 <option value="Psychic">Psychic</option>
+                 <option value="Bug">Bug</option>
+                 <option value="Rock">Rock</option>
+                 <option value="Ghost">Ghost</option>
+                 <option value="Dragon">Dragon</option>
+                 <option value="Dark">Dark</option>
+                 <option value="Steel">Steel</option>
+                 <option value="Fairy">Fairy</option>
+            </select>&nbsp; &nbsp;
+
+            <label for="type2">Type 2:</label>
+            <select name="types" id="types">
+                 <option value="Normal">Normal</option>
+                 <option value="Fire">Fire</option>
+                 <option value="Water">Water</option>
+                 <option value="Electric">Electric</option>
+                 <option value="Grass">Grass</option>
+                 <option value="Ice">Ice</option>
+                 <option value="Fighting">Fighting</option>
+                 <option value="Poison">Poison</option>
+                 <option value="Ground">Ground</option>
+                 <option value="Flying">Flying</option>
+                 <option value="Psychic">Psychic</option>
+                 <option value="Bug">Bug</option>
+                 <option value="Rock">Rock</option>
+                 <option value="Ghost">Ghost</option>
+                 <option value="Dragon">Dragon</option>
+                 <option value="Dark">Dark</option>
+                 <option value="Steel">Steel</option>
+                 <option value="Fairy">Fairy</option>
+            </select> <br><br>
+
+            <label for="evol">Evolves from:</label>
+            <input type="text" name="Evolves from" id="evol"> &nbsp; &nbsp;
+            <label for="evol">Evolves to:</label>
+            <input type="text" name="Evolves to" id="evol"><br><br>
+
+            <label for="nickname">Nickname:</label>
+            <input type="text" name="Nickname" id="nickname"><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"> <br><br>
+
+            <input type="submit" value="Submit"> <br><br>
+        </form>
+
+        <table border="2" align="center">
+            <tr style="text-align: center;">
+                <th style="width: 7%;"><h2>National Dex<h3></h3></th>
+                <th style="width: 7%;"><h2>Generation</th>
+                <th style="width: 7%;"><h2>Pokemon Name</th>
+                <th style="width: 7%;"><h2>Image</th>
+                <th style="width: 7%;"><h2>Type 1</th>
+                <th style="width: 7%;"><h2>Type 2</th>
+                <th style="width: 7%;"><h2>Evolves From</th>
+                <th style="width: 7%;"><h2>Evolves To</th>
+                <th style="width: 7%;"><h2>Nickname</th>
+                <th style="width: 7%;"><h2>Birthday</th>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#6906</td>
+                <td>6</td>
+                <td>Nathan</td>
+                <td><img src="https://cdn.fbsbx.com/v/t59.2708-21/441186828_958717859092840_6077636028333392586_n.gif?_nc_cat=110&ccb=1-7&_nc_sid=cf94fc&_nc_eui2=AeHkfU9LZ0Z7s8hWuJa0BUKcNL3WYiFtgcY0vdZiIW2BxlYygYEfQljZFDU2wCHgtcBnEAhXLXS6NEB1r2g4weui&_nc_ohc=ZxIU-1uqLoEQ7kNvgG0EYPc&_nc_ht=cdn.fbsbx.com&oh=03_Q7cD1QEhuQxUhSdKxiT9J1Un9tuEICWUEb_sYMpMdgL-CkfkQw&oe=663AB3A0" alt="Nate" height="150" width="266"></td>
+                <td bgcolor="slate"><font color="white">Water</font></td>
+                <td bgcolor="pink"><font color="Black">Fairy</font></td>
+                <td>Nate</td>
+                <td>Nathalita</td>
+                <td>Koka</td>
+                <td>08-02-2005</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0496</td>
+                <td>5</td>
+                <td>Servine</td>
+                <td><img src="https://media1.tenor.com/m/43JJ3KVIn9gAAAAC/servine-pokemon-servine.gif" alt="servine" height="150" width="266"</td>
+                <td bgcolor="gree" colspan="2"><font color="white">Grass</font></td>
+                <td>Snivy</td>
+                <td>Serperior</td>
+                <td>Vyvy</td>
+                <td>07-03-2006</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0281</td>
+                <td>3</td>
+                <td>Kirlia</td>
+                <td><img src="https://i.pinimg.com/originals/37/24/b8/3724b817a66dd60656a8c1915214de72.gif" alt="kirlia" height="150" width="266"</td>
+                <td bgcolor="fuchsia"><font color="white">Psychic</font></td>
+                <td bgcolor="pink">Fairy</td>
+                <td>Ralts</td>
+                <td>Gallade</td>
+                <td>Kiri</td>
+                <td>06-04-2007</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0104</td>
+                <td>1</td>
+                <td>Cubone</td>
+                <td><img src="https://64.media.tumblr.com/tumblr_mam8ddDUvU1qcm0wfo1_500.gifv" alt="Cubone" height="150" width="266"</td>
+                <td bgcolor="caramel" colspan="2">Ground</td>
+                <td>-</td>
+                <td>Marowak</td>
+                <td>Crybaby</td>
+                <td>07-05-2008</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0130</td>
+                <td>1</td>
+                <td>Gyrados</td>
+                <td><img src="https://media1.tenor.com/m/yGpVvIAJ2eAAAAAC/gyarados-water.gif" alt="Gyrados" height="150" width="266"</td>
+                <td bgcolor="slate"><font color="white">Water</font></td>
+                <td bgcolor="lightblue">Flying</td>
+                <td>Magicarp</td>
+                <td>Mega gyrados(Gyradosite)</td>
+                <td>Fishyfishfish</td>
+                <td>08-06-2009</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0130</td>
+                <td>2</td>
+                <td>Pupitar</td>
+                <td><img src="https://64.media.tumblr.com/87813619db9b7de62aaf2a0276d07ecb/tumblr_oqefgokDf21uh3x51o2_400.gifv" alt="Pupitar" height="150" width="266"</td>
+                <td bgcolor="chocolate">Rock</td>
+                <td bgcolor="dimgray"><font color="white">Dark</font></td>
+                <td>Larvitar</td>
+                <td>Tyranitar</td>
+                <td>draggy</td>
+                <td>09-07-2001</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0373</td>
+                <td>3</td>
+                <td>Shelgon</td>
+                <td><img src="https://64.media.tumblr.com/76a5cb825c9ace5b4d6ecfd049fe34b0/tumblr_or1o96l8jy1uh3x51o3_400.gifv" alt="Shelgon" height="150" width="266"</td>
+                <td bgcolor="cyan" colspan="2">Dragon</td>
+                <td>Bagon</td>
+                <td>Salamence</td>
+                <td>Salamandyy</td>
+                <td>09-07-2001</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0575</td>
+                <td>5</td>
+                <td>Gothorita</td>
+                <td><img src="https://64.media.tumblr.com/45c2ceb065c5d9a84a12d34766571617/tumblr_n9ek05qtY71tgjlm2o1_500.gif" alt="Gothorita" height="150" width="266"</td>
+                <td bgcolor="fuchsia" colspan="2"><font color="white">Psychic</font></td>
+                <td>Gothita</td>
+                <td>Gothitelle</td>
+                <td>Sable</td>
+                <td>10-08-2002</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0661</td>
+                <td>6</td>
+                <td>Fletchinder</td>
+                <td><img src="https://64.media.tumblr.com/5b1121c89cfbf1cae5d288fd77326c6e/tumblr_n98l84oEpN1rsrk2xo4_250.gif" alt="Fletchinder" height="150" width="266"</td>
+                <td bgcolor="red"><font color="white">Fire</font></td>
+                <td bgcolor="lightblue">Flying</td>
+                <td>Fletchling</td>
+                <td>Talonflame</td>
+                <td>Red</td>
+                <td>10-08-2002</td>
+            </tr>
+
+            <tr style="text-align: center;">
+                <td>#0059</td>
+                <td>1</td>
+                <td>Arcanine</td>
+                <td><img src="https://64.media.tumblr.com/tumblr_lq5ejdgo0B1qcumh0o1_500.gif" alt="Arcanine" height="150" width="266"</td>
+                <td bgcolor="red" colspan="2"><font color="white">Fire</font></td>
+                <td>Growlithe</td>
+                <td>-</td>
+                <td>Fiery pup</td>
+                <td>11-09-2003</td>
+            </tr>
+
+        </table>
+    </center>
+</body>
+</html>
