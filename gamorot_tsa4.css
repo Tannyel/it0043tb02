@@ -1,0 +1,67 @@
+.img
+{
+    background-image: url(https://images5.alphacoders.com/132/1323577.png);
+}
+
+.h1
+{
+    text-align: center;
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 50;
+    font-family: Montserrat;
+}
+
+.h2
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.p
+{
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.p1
+{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.p2
+{
+    text-align: right;
+    font-size: 30px;
+    margin-right: 100;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.a23
+{
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.twitch
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: purple;
+}
+
+.oe
+{
+    font-weight: bold;
+}
