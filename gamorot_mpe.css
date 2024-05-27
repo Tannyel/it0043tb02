@@ -1,93 +1,123 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('https://31.media.tumblr.com/0f300ca02ef85dd6c17830fa0030c1d9/tumblr_mqb2x29vGa1sv7n1qo1_500.gif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body{
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.Pmon {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0%;
-    background-image: url(https://31.media.tumblr.com/0f300ca02ef85dd6c17830fa0030c1d9/tumblr_mqb2x29vGa1sv7n1qo1_500.gif);
+    border: 2px solid black;
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+    transition: flex-basis 0.3s ease-in-out;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 60vh;
-    width: 80vw;
-    margin: 20px auto;
-    border: 7px solid black;
-    max-width: 2200px;
-    gap: 30px;
+.Pmon img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.box{
-    width: 25%;
-    height: 270px;
-    border: 3px solid black;
-    border-radius: 10px;
-    color: black;
-    padding: 20px;
-    font-size: 2rem;
-    text-align: center;
+.Pmon span {
+    margin-top: 10px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-.image{
-    max-width: 80%;
-    height: auto;
-    margin-top: rem;
+@media (min-width: 800px) {
+    .Pmon {
+        flex: 1 1 calc(25% - 20px);
+    }
 }
 
-.abra{
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Pmon {
+        flex: 1 1 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Pmon img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Pmon span {
+        flex-grow: 1;
+        margin-left: 10px;
+    }
+}
+
+.abra {
     background-color: #F5CBA7;
 }
 
-.bullbasaur{
-    background-color: #1dc038;
+.bullbasaur {
+    background-color: #A3E4D7;
 }
 
-.charmander1{
-    background-color: #e67326;
+.charmander1 {
+    background-color: #F5B7B1;
 }
 
-.eevee{
-    background-color: #bb824f;
+.eevee {
+    background-color: #EED6B8;
 }
 
-.jigglypuff{
-    background-color: #e03dcb;
+.jigglypuff {
+    background-color: #FADBD8;
 }
 
-.meowth{
-    background-color: #f3e3d5;
+.meowth {
+    background-color: #FDEBD0;
 }
 
-.mew{
-    background-color: #e9dcd1;
+.mew {
+    background-color: #D7BDE2;
 }
 
-.pidgey{
-    background-color: #f8c360;
+.pidgey {
+    background-color: #D5DBDB;
 }
 
-.pikachu{
-    background-color: #f5d524;
+.pikachu {
+    background-color: #F9E79F;
 }
 
-.psyduck{
-    background-color: #ffa90a;
+.psyduck {
+    background-color: #F7DC6F;
 }
 
-.snorlax{
-    background-color: #2e1ec5;
+.snorlax {
+    background-color: #D5D8DC;
 }
 
-.squirtle1{
-    background-color: #14abda;
+.squirtle {
+    background-color: #A9CCE3;
 }
