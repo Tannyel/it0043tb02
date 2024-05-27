@@ -1,123 +1,198 @@
-body, html {
+* {
     margin: 0;
     padding: 0;
-    height: 100%;
-    background: url('https://31.media.tumblr.com/0f300ca02ef85dd6c17830fa0030c1d9/tumblr_mqb2x29vGa1sv7n1qo1_500.gif');
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
 }
 
-.container {
+body {
+    background-image: url(https://31.media.tumblr.com/0f300ca02ef85dd6c17830fa0030c1d9/tumblr_mqb2x29vGa1sv7n1qo1_500.gif);
+    font-family: Arial, sans-serif;
+}
+
+.flex-container {
+    padding: 0px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
-    max-width: 1200px;
-    height: auto;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    box-sizing: border-box;
     justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    transition: 1s ease;
 }
 
-.Pmon {
-    flex: 1 1 calc(33.333% - 20px);
+.card {
+    width: 400px;
+    height: 400px;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    padding: 10px;
-    background: white;
-    box-sizing: border-box;
-    transition: flex-basis 0.3s ease-in-out;
+    border: 2px rgb(255, 255, 255) solid;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.Pmon img {
-    max-width: 100%;
-    max-height: 100%;
+.card:hover {
+    transform: scale(1.05);
 }
 
-.Pmon span {
-    margin-top: 10px;
-    font-size: 1.2em;
-    font-weight: bold;
+.pokeball {
+    width: 90px;
+    display: none;
 }
 
-@media (min-width: 800px) {
-    .Pmon {
-        flex: 1 1 calc(25% - 20px);
-    }
-}
-
-@media (max-width: 600px) {
-    .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .Pmon {
-        flex: 1 1 100%;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .Pmon img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .Pmon span {
-        flex-grow: 1;
-        margin-left: 10px;
-    }
+.image {
+    width: 100%;
 }
 
 .abra {
-    background-color: #F5CBA7;
+    background: linear-gradient(45deg, #F5CBA7, #FFD700);
 }
 
-.bullbasaur {
-    background-color: #A3E4D7;
+.bullbasour {
+    background: linear-gradient(45deg, #A3E4D7, #2E8B57);
 }
 
 .charmander1 {
-    background-color: #F5B7B1;
+    background: linear-gradient(45deg, orange, #FF4500);
 }
 
 .eevee {
-    background-color: #EED6B8;
+    background: linear-gradient(45deg, #A0522D, #8B4513);
 }
 
 .jigglypuff {
-    background-color: #FADBD8;
+    background: linear-gradient(45deg, pink, #FF69B4);
 }
 
 .meowth {
-    background-color: #FDEBD0;
+    background: linear-gradient(45deg, bisque, #CD853F);
 }
 
 .mew {
-    background-color: #D7BDE2;
+    background: linear-gradient(45deg, #FFB6C1, #FF1493);
 }
 
 .pidgey {
-    background-color: #D5DBDB;
+    background: linear-gradient(45deg, #D2B48C, #8B4513);
 }
 
 .pikachu {
-    background-color: #F9E79F;
+    background: linear-gradient(45deg, #fbca04, #FFD700);
 }
 
 .psyduck {
-    background-color: #F7DC6F;
+    background: linear-gradient(45deg, #FFD700, #FFA500);
 }
 
 .snorlax {
-    background-color: #D5D8DC;
+    background: linear-gradient(45deg, #4682B4, #1E90FF);
 }
 
 .squirtle {
-    background-color: #A9CCE3;
+    background: linear-gradient(45deg, lightblue, #00BFFF);
+}
+
+
+h1 {
+    display: none;
+    font-family: "Merriweather";
+    font-weight: bold;
+}
+
+@media (max-width: 1285px) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        height: 100px;
+        justify-content: center;
+        border: 2px black solid;
+        padding: 5px;
+        border-radius: 25px;
+        align-items: center;
+    }
+
+    .image {
+        width: 9%;
+    }
+
+
+    h1 {
+        display: inline-block;
+        text-align: center;
+        flex-grow: 1;
+        color: black;
+    }
+
+    .pokeball {
+        display: inline-block;
+    }
+
+    .card:hover {
+        background-image: url(https://img.freepik.com/free-photo/anime-style-clouds_23-2151071667.jpg?t=st=1716806704~exp=1716810304~hmac=ff23eff15bc5fd0f7e72363aa229a5e8ef395d8a1be2580a16392de804b7c810&w=740);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        height: 100%;
+        padding: 0px;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card {
+        width: 80vw;
+        height: 80vw;
+        padding: 10px;
+        justify-content: space-around;
+        border: 2px black solid;
+        border-radius: 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .image {
+        align-self: center;
+        width: 75%;
+    }
+
+    .name {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: whitesmoke;
+        display: block;
+        font-family: "Merriweather";
+        font-weight: bold;
+    }
+
+    .pokeball {
+        display: none;
+    }
+
+    .card:hover {
+        background-image: url(images/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
