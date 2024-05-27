@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0%;
+    background-image: url(https://31.media.tumblr.com/0f300ca02ef85dd6c17830fa0030c1d9/tumblr_mqb2x29vGa1sv7n1qo1_500.gif);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 80vw;
+    margin: 20px auto;
+    border: 7px solid black;
+    max-width: 2200px;
+    gap: 30px;
+}
+
+.box{
+    width: 25%;
+    height: 270px;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image{
+    max-width: 80%;
+    height: auto;
+    margin-top: rem;
+}
+
+.abra{
+    background-color: #F5CBA7;
+}
+
+.bullbasaur{
+    background-color: #1dc038;
+}
+
+.charmander1{
+    background-color: #e67326;
+}
+
+.eevee{
+    background-color: #bb824f;
+}
+
+.jigglypuff{
+    background-color: #e03dcb;
+}
+
+.meowth{
+    background-color: #f3e3d5;
+}
+
+.mew{
+    background-color: #e9dcd1;
+}
+
+.pidgey{
+    background-color: #f8c360;
+}
+
+.pikachu{
+    background-color: #f5d524;
+}
+
+.psyduck{
+    background-color: #ffa90a;
+}
+
+.snorlax{
+    background-color: #2e1ec5;
+}
+
+.squirtle1{
+    background-color: #14abda;
+}
