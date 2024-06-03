@@ -111,36 +111,26 @@
     }
 
     .dokja {
-        background: linear-gradient(45deg, #09111f, #4b709b);
-        color: white;
         grid-column-start: 1;
         grid-column-end: 2;
     }
     
     .giotto {
-        background: linear-gradient(45deg, #FF8008, #FFC837);
-        color: white;
         grid-column-start: 1;
         grid-column-end: 2;
     }
     
     .amon {
-        background: linear-gradient(45deg, #09171d, #5d94ac);
-        color: white;
         grid-column-start: 1;
         grid-column-end: 2;
     }
     
     .lavi {
-        background: linear-gradient(45deg, #5433FF, #20BDFF);
-        color: white;
         grid-column-start: 1;
         grid-column-end: 2;
     }
     
     .shoto {
-        background: linear-gradient(45deg, #FF512F, #DD2476);
-        color: white;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 6;
