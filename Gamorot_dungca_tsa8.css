@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.fb-sim-controller {
+    flex: 1;
+    background-color: #ffe6e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fb-sim-controller h1 {
+    margin-top: 0;
+    color: #ff6666;
+}
+
+.fb-sim-controller .group {
+    margin-bottom: 20px;
+}
+
+.fb-sim-controller .group h2 {
+    margin-bottom: 10px;
+    color: #cc6699;
+}
+
+.fb-sim-controller .group-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fb-sim-controller .btn {
+    padding: 10px;
+    background-color: #ff9999;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.fb-sim-controller .btn:hover {
+    background-color: #ff6666;
+}
+
+.fb-sim-controller .grow-input,
+.fb-sim-controller .gap-input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.fb-sim-controller .gap-label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #ffe6e6;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ff6666;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fb-sim-display {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fb-sim-display .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcccc;
+    border-radius: 8px;
+    font-size: 24px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 153, 153, 0.5);
+    flex-grow: 0;
+    transition: transform 0.3s;
+}
+
+.fb-sim-display .box:hover {
+    transform: scale(1.05);
+}
+
+.fb-sim-display .box:nth-child(2n) {
+    background-color: #ff99cc;
+}
+
+.fb-sim-display .box:nth-child(3n) {
+    background-color: #cc6699;
+}
