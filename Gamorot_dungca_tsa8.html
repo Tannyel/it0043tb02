@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSA 8</title>
+  <link rel="stylesheet" href="Gamorot_dungca_tsa8.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="fb-sim-controller">
+      <h1>Flex Box Simulator</h1>
+      <div class="flex-controls">
+        <button id="reset-flexbox" class="btn">Reset Flexbox</button>
+        <input type="number" id="box-gap-input" class="btn gap-input" min="0" value="20">
+        <span class="gap-label">Gap</span>
+      </div>
+
+      <div class="group">
+        <h2>Flex Direction</h2>
+        <div class="group-row">
+          <button id="flex-direction-row" class="btn">Row</button>
+          <button id="flex-direction-column" class="btn">Column</button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Justify Content</h2>
+        <div class="group-row">
+          <button id="justify-start" class="btn">Start</button>
+          <button id="justify-center" class="btn">Center</button>
+        </div>
+        <div class="group-row">
+          <button id="justify-end" class="btn">End</button>
+          <button id="justify-space-between" class="btn">Space Between</button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Align Items</h2>
+        <div class="group-row">
+          <button id="align-start" class="btn">Start</button>
+          <button id="align-center" class="btn">Center</button>
+          <button id="align-end" class="btn">End</button>
+        </div>
+      </div>
+
+      <div class="group">
+        <h2>Flex Grow</h2>
+        <div class="group-row">
+          <button id="grow-box-1" class="btn">Grow Box 1</button>
+          <input type="number" id="grow-box-1-input" class="grow-input" min="0" value="0">
+        </div>
+        <div class="group-row">
+          <button id="grow-box-2" class="btn">Grow Box 2</button>
+          <input type="number" id="grow-box-2-input" class="grow-input" min="0" value="0">
+        </div>
+        <div class="group-row">
+          <button id="grow-box-3" class="btn">Grow Box 3</button>
+          <input type="number" id="grow-box-3-input" class="grow-input" min="0" value="0">
+        </div>
+        <div class="group-row">
+          <button id="reset-grow" class="btn">Reset Boxes</button>
+          <button id="grow-all" class="btn">Grow All</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="fb-sim-display">
+      <div class="box" id="box-1">1</div>
+      <div class="box" id="box-2">2</div>
+      <div class="box" id="box-3">3</div>
+    </div>
+  </div>
+  <script src="Gamorot_dungca_tsa8.js"></script>
+</body>
+
+</html>
